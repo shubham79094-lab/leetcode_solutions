@@ -1,2 +1,2 @@
 # leetcode_solutions
-leet-solutions
+leet 1
