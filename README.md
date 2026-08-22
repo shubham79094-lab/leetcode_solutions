@@ -2,6 +2,3 @@
 
 # leetcode_solution
 
-
-
-
