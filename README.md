@@ -1,5 +1,2 @@
-  
 
 # leetcode_solution
-
-
