@@ -1,0 +1,8 @@
+// Title: Minimum Absolute Difference
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/minimum-absolute-difference/
+
+class Solution:
+    def minimumAbsDifference(self, arr: List[int]) -> List
+    [List[int]]:
