@@ -1,0 +1,16 @@
+// Title: Final Value of Variable After Performing Operations
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
+
+class Solution:
+    def finalValueAfterOperations(self, operations: List[str]) -> 
+    int:
+        n = len(operations)
+        x = 0
+        for i in range(n):
+            if operations[i] == "X++" or operations[i] == "++X":
+                x += 1
+            elif operations[i] == "X--" or operations[i] == "--X":
+                x -= 1
+        return x
