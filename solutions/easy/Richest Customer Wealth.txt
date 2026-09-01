@@ -1,0 +1,6 @@
+// Title: Richest Customer Wealth
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/richest-customer-wealth/
+
+class Solution:
