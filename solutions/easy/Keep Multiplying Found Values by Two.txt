@@ -1,0 +1,14 @@
+// Title: Keep Multiplying Found Values by Two
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/keep-multiplying-found-values-by-two/
+
+class Solution:
+    def findFinalValue(self, nums: List[int], original: 
+    int) -> int:
+        n = len(nums)
+
+        for i in range(n):
+            if original in nums:
+                original *= 2
+        return original 
