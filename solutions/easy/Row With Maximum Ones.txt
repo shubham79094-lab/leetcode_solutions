@@ -1,0 +1,11 @@
+// Title: Row With Maximum Ones
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/row-with-maximum-ones/
+
+class Solution:
+    def rowAndMaximumOnes(self, mat: List[List[int]]) -> List[int]:
+        best_row = 0
+        best_count = 0
+        for i in range(len(mat)):
+            count = sum(mat[i])
