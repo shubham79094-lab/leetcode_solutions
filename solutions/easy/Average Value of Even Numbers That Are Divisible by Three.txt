@@ -1,0 +1,14 @@
+// Title: Average Value of Even Numbers That Are Divisible by Three
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/
+
+class Solution:
+    def averageValue(self, nums: List[int]) -> int:
+        total = 0
+        count = 0
+        for num in nums:
+            if num % 2 == 0 and num % 3 == 0:
+                total += num
+                count += 1
+        return total // count if count > 0 else 0
