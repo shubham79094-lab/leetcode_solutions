@@ -1,0 +1,7 @@
+// Title: Longest Common Prefix
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/longest-common-prefix/
+
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+class Solution:
