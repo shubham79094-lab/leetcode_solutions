@@ -1,0 +1,6 @@
+// Title: Majority Element
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/majority-element/
+
+c
