@@ -1,0 +1,6 @@
+// Title: 3Sum Closest
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/3sum-closest/
+
+        sum = nums[0] + nums[1] + nums[2]
