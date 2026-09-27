@@ -3,9 +3,19 @@
             // Language: Python3
             // Link: https://leetcode.com/problems/container-with-most-water/
 
-    def maxArea(self, height: list[int]) -> 
-    int:
+class Solution:
+    def maxArea(self, height: list[int]) -> int:
         left , right = 0 , len(height) -1
 
         max_wtr = 0
         while left<right:
+            width = right - left
+            cur_height = min(height[left] , height[right])
+            area = width * cur_height
+            max_wtr = max(max_wtr , area)
+
+            if height[left] < height[right]:
+                left += 1
+            else:
+                right -=1
+        return max_wtr
