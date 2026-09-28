@@ -1,0 +1,10 @@
+// Title: 4Sum
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/4sum/
+
+class Solution:
+    def fourSum(self, nums: list[int], target: int) -> list[list[int]]:
+        n = len(nums)
+        ans = []
+        nums.sort()
