@@ -1,0 +1,14 @@
+// Title: Next Permutation
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/next-permutation/
+
+        
+        if i >= 0:
+            j = n - 1
+            while nums[j] <= nums[i]:
+                j -= 1
+            nums[i] , nums[j] = nums[j] , 
+            nums[i] 
+        l , r = i + 1, n - 1
+        while l < r:
