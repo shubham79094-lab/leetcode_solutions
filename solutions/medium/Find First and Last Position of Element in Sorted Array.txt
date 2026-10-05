@@ -1,0 +1,11 @@
+// Title: Find First and Last Position of Element in Sorted Array
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+            while lo < hi:
+                mid = (lo + hi )//2
+                if nums[mid] < x:
+                    lo = mid + 1
+                else:
+                    hi = mid
