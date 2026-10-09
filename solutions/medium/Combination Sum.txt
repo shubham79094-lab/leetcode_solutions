@@ -3,6 +3,7 @@
             // Language: Python3
             // Link: https://leetcode.com/problems/combination-sum/
 
+class Solution:
     def combinationSum(self, candidates: list[int], target: 
     int) -> list[list[int]]:
         ans = []
@@ -10,3 +11,11 @@
             if target == 0:
                 ans.append(path.copy())
                 return 
+            if target < 0:
+                return 
+            for i in range(start,len(candidates)):
+                path.append(candidates[i])
+                backtrack(i , target - candidates[i])
+                path.pop()
+        path = []
+        backtrack(0, target)
