@@ -3,8 +3,10 @@
             // Language: C++
             // Link: https://leetcode.com/problems/combination-sum/
 
-    vector<vector<int>> combinationSum(vector<int>& candidates,
-                                       int target) {
-        sort(candidates.begin(), candidates.end());
+class Solution {
+public:
+    void backtrack(vector<int>& candidates, int target,
+                   int start, vector<int>& path,
+                   vector<vector<int>>& ans) {
 
-        vector<vector<int>> ans;
+        if (target == 0) {
