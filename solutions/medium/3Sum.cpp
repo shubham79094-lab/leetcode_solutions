@@ -3,6 +3,9 @@
             // Language: C++
             // Link: https://leetcode.com/problems/3sum/
 
-                    j++;
-                int sum = nums[i] + nums[j] + nums[k];
-                if(sum < 0){
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        int n = nums.size();
+        vector<vector<int>>ans;
+        sort(nums.begin() , nums.end());
