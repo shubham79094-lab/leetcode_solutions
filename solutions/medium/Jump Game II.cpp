@@ -8,3 +8,4 @@ public:
     int jump(vector<int>& nums) {
         int n = nums.size();
         int j = 0, curend = 0, farthest = 0;
+        for(int i = 0; i < n -1; i++){
